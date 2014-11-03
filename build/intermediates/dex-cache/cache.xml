@@ -2,16 +2,16 @@
 <pre-dex-items>
 
     <item
-        dex="/Users/mshearer123/Documents/MenuDroid/app/build/intermediates/pre-dexed/debug/support-v4-19.0.1-9311fba9dd9b375dda3c20229811c3cc8e031d64.jar"
-        jar="/Users/mshearer123/android-sdks/extras/android/m2repository/com/android/support/support-v4/19.0.1/support-v4-19.0.1.jar"
-        jumboMode="false"
-        revision="19.1.0"
-        sha1="587da9a481ffd341d2fa091704489b89845ddacd"/>
-    <item
         dex="/Users/mshearer123/Documents/MenuDroid/app/build/intermediates/pre-dexed/debug/classes-1dab72869ae93bd43804e680f9dce08f12e672d2.jar"
         jar="/Users/mshearer123/Documents/MenuDroid/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.0.1/classes.jar"
         jumboMode="false"
         revision="19.1.0"
         sha1="f71a6822470c9eb659d4f4a6cb57b780b35f058b"/>
+    <item
+        dex="/Users/mshearer123/Documents/MenuDroid/app/build/intermediates/pre-dexed/debug/support-v4-19.0.1-9311fba9dd9b375dda3c20229811c3cc8e031d64.jar"
+        jar="/Users/mshearer123/android-sdks/extras/android/m2repository/com/android/support/support-v4/19.0.1/support-v4-19.0.1.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="587da9a481ffd341d2fa091704489b89845ddacd"/>
 
 </pre-dex-items>

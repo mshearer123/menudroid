@@ -1,5 +1,6 @@
 package com.matt.menudroid.app;
 
+import android.app.Notification;
 import android.content.res.Configuration;
 import android.os.Bundle;
 import android.support.v4.app.ActionBarDrawerToggle;
@@ -14,6 +15,8 @@ import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.FrameLayout;
 import android.widget.ListView;
+
+import com.activeandroid.ActiveAndroid;
 
 import java.util.HashMap;
 import java.util.LinkedList;
@@ -33,7 +36,7 @@ public class MainActivity extends FragmentActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         getActionBar().setDisplayHomeAsUpEnabled(true);
-
+        ActiveAndroid.initialize(this);
         contentFrame = (FrameLayout) findViewById(R.id.content_frame);
         drawerList = (ListView) findViewById(R.id.left_drawer);
         drawerLayout = (DrawerLayout) findViewById(R.id.drawer_layout);
