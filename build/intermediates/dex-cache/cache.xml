@@ -1,17 +1,54 @@
 <?xml version="1.0" encoding="utf-8"?>
-<pre-dex-items>
+<items version="2" >
 
     <item
-        dex="/Users/mshearer123/Documents/MenuDroid/app/build/intermediates/pre-dexed/debug/classes-1dab72869ae93bd43804e680f9dce08f12e672d2.jar"
-        jar="/Users/mshearer123/Documents/MenuDroid/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/19.0.1/classes.jar"
+        jar="/Users/mshearer123/android-sdks/extras/android/m2repository/com/android/support/support-annotations/21.0.0/support-annotations-21.0.0.jar"
         jumboMode="false"
-        revision="19.1.0"
-        sha1="f71a6822470c9eb659d4f4a6cb57b780b35f058b"/>
+        revision="21.0.0"
+        sha1="1a578b9607b36266c63d43a4fa0ab5664dbe911e">
+        <dex dex="/Users/mshearer123/Documents/MenuDroid/app/build/intermediates/pre-dexed/debug/support-annotations-21.0.0-f1c86954b7f9c20ad0fefaa311020228bed18513.jar" />
+    </item>
     <item
-        dex="/Users/mshearer123/Documents/MenuDroid/app/build/intermediates/pre-dexed/debug/support-v4-19.0.1-9311fba9dd9b375dda3c20229811c3cc8e031d64.jar"
-        jar="/Users/mshearer123/android-sdks/extras/android/m2repository/com/android/support/support-v4/19.0.1/support-v4-19.0.1.jar"
+        jar="/Users/mshearer123/Documents/MenuDroid/app/build/intermediates/exploded-aar/com.github.satyan/sugar/1.3/classes.jar"
         jumboMode="false"
-        revision="19.1.0"
-        sha1="587da9a481ffd341d2fa091704489b89845ddacd"/>
+        revision="21.0.0"
+        sha1="07e07903922250dabf50c7d131d6fa069a050305">
+        <dex dex="/Users/mshearer123/Documents/MenuDroid/app/build/intermediates/pre-dexed/debug/classes-4a8026437339c528600ee2d640d0304149a10f3a.jar" />
+    </item>
+    <item
+        jar="/Users/mshearer123/Documents/MenuDroid/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.0/classes.jar"
+        jumboMode="false"
+        revision="21.0.0"
+        sha1="95fd37732ec852e99f07eeb516a3650172f1d136">
+        <dex dex="/Users/mshearer123/Documents/MenuDroid/app/build/intermediates/pre-dexed/debug/classes-0c05973ed0a099e1134d250812ba711ac3e8a3df.jar" />
+    </item>
+    <item
+        jar="/Users/mshearer123/Documents/MenuDroid/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/21.0.0/classes.jar"
+        jumboMode="false"
+        revision="21.0.0"
+        sha1="efeda77c808750cb670ee9c48d8a1835d89dbcb2">
+        <dex dex="/Users/mshearer123/Documents/MenuDroid/app/build/intermediates/pre-dexed/debug/classes-e2b7ec70440e6fd5743baa853ff214557c56eaef.jar" />
+    </item>
+    <item
+        jar="/Users/mshearer123/Documents/MenuDroid/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.0/classes.jar"
+        jumboMode="false"
+        revision="21.0.0"
+        sha1="686344a780033e4ba22b926cd225f8d4941247e6">
+        <dex dex="/Users/mshearer123/Documents/MenuDroid/app/build/intermediates/pre-dexed/debug/classes-227d0c7df28d93558632d10d15aa68968c396518.jar" />
+    </item>
+    <item
+        jar="/Users/mshearer123/Documents/MenuDroid/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.0/libs/internal_impl-21.0.0.jar"
+        jumboMode="false"
+        revision="21.0.0"
+        sha1="1609e6d42d0480b0f4188e2c29f75388fa12a8f0">
+        <dex dex="/Users/mshearer123/Documents/MenuDroid/app/build/intermediates/pre-dexed/debug/internal_impl-21.0.0-1c3904f1dbcc5ef4ee5468e21e9bf17f6c55a57b.jar" />
+    </item>
+    <item
+        jar="/Users/mshearer123/Documents/MenuDroid/app/build/intermediates/exploded-aar/com.android.support/cardview-v7/21.0.0/classes.jar"
+        jumboMode="false"
+        revision="21.0.0"
+        sha1="7d2525cba8ed61fff102977caed964fc22061e34">
+        <dex dex="/Users/mshearer123/Documents/MenuDroid/app/build/intermediates/pre-dexed/debug/classes-8be4769904331c9f5c6b7f497caca228da0fafb2.jar" />
+    </item>
 
-</pre-dex-items>
+</items>

@@ -1,4 +1,4 @@
-package com.matt.menudroid.app;
+package com.matt.menudroid.app.fragment;
 
 import android.app.Activity;
 import android.os.Bundle;
@@ -13,6 +13,8 @@ import android.view.ViewGroup;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
+
+import com.matt.menudroid.app.R;
 
 import java.util.LinkedList;
 import java.util.List;
