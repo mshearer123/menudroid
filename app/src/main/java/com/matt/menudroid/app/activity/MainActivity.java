@@ -32,7 +32,6 @@ public class MainActivity extends FragmentActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        getActionBar().setDisplayHomeAsUpEnabled(true);
         contentFrame = (FrameLayout) findViewById(R.id.content_frame);
         drawerList = (ListView) findViewById(R.id.left_drawer);
         drawerLayout = (DrawerLayout) findViewById(R.id.drawer_layout);
@@ -53,12 +52,17 @@ public class MainActivity extends FragmentActivity {
                 if (position == 0) {
                     setFragment(fragmentMap.get("Menus"));
                     setTitle("Menus");
+
                 } else if (position == 1) {
                     setFragment(fragmentMap.get("Tables"));
                     setTitle("Tables");
                 }
+                drawerLayout.closeDrawer(contentFrame);
             }
         });
+
+        setFragment(fragmentMap.get("Menus"));
+        setTitle("Menus");
 
     }
 
