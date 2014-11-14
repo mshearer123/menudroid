@@ -4,4 +4,6 @@
     <string name="app_name">MenuDroid</string>
     <string name="hello_world">Hello world!</string>
 
+    <string name="description">This recipe is a prime example of low-temperature roasting, and you will have to start cooking at least 5 hours before you want to eat. It\'s a great showcase for dry-aged meat, if you can get hold of some, but it\'ll suit any good-quality rib of beef. I cook the meat to 55C, which will make it medium-rare, but if you prefer it rarer or more done, refer to the photograph below for the appropriate temperature. The bone marrow gives the sauce a rich, unctuous character, but if you can\'t obtain bone marrow, you can make the sauce without it.</string>
+
 </resources>

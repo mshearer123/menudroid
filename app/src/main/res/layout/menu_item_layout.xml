@@ -16,7 +16,6 @@
         android:layout_gravity="top|center_horizontal"
         android:padding="10dp"
         android:text="name"
-        android:textColor="@android:color/darker_gray"
         android:textSize="22dp" />
 
     <TextView
@@ -26,7 +25,6 @@
         android:layout_gravity="bottom|center_horizontal"
         android:padding="10dp"
         android:text="description"
-        android:textColor="@android:color/darker_gray"
         android:textSize="22dp" />
 
 </android.support.v7.widget.CardView>

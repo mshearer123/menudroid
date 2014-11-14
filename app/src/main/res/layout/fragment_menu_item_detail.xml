@@ -10,6 +10,7 @@
         android:fillViewport="true"
         android:overScrollMode="never">
 
+
         <FrameLayout
             android:id="@+id/scroll_view_child"
             android:layout_width="match_parent"
@@ -27,21 +28,33 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:scaleType="centerCrop"
-                    android:src="@drawable/images" />
+                    android:src="@drawable/food1" />
             </FrameLayout>
 
             <LinearLayout
                 android:id="@+id/details_container"
                 android:layout_width="match_parent"
-                android:layout_height="1000dp"
-
-
-                android:background="#446644"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
                 android:clipToPadding="false"
                 android:orientation="vertical"
                 android:paddingBottom="48dp"
                 android:paddingRight="16dp"
                 android:paddingTop="16dp">
+
+                <TextView
+                    android:id="@+id/item_description"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="100dp"
+                    android:layout_marginRight="40dp"
+                    android:ellipsize="end"
+                    android:fontFamily="sans-serif-thin"
+                    android:maxLines="50"
+                    android:text="@string/description"
+                    android:textAlignment="viewStart"
+                    android:textColor="@color/black"
+                    android:textSize="18sp" />
 
             </LinearLayout>
 
@@ -50,37 +63,47 @@
                 android:id="@+id/header_session"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:background="#989383"
+                android:background="@color/colorPrimaryDark"
                 android:clipChildren="false"
                 android:clipToPadding="false"
                 android:orientation="vertical"
                 android:paddingBottom="16dp">
 
+                <include layout="@layout/toolbar_actionbar" />
+
 
                 <!-- Session title -->
                 <TextView
-                    android:id="@+id/session_title"
+                    android:id="@+id/item_title"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:layout_marginLeft="100dp"
+                    android:layout_marginRight="40dp"
                     android:ellipsize="end"
-                    android:lineSpacingMultiplier="1.1"
+                    android:fontFamily="@string/font_fontFamily_medium"
                     android:maxLines="4"
-                    android:text="BLAH BLAH BLAH"
-
-                    android:textAlignment="viewStart" />
+                    android:text="Heston Blumenthal's slow-roasted rib of beef with bone-marrow sauce"
+                    android:textAlignment="viewStart"
+                    android:textColor="@color/text_primary"
+                    android:textSize="@dimen/text_size_large" />
 
                 <!-- Session subtitle -->
                 <TextView
-                    android:id="@+id/session_subtitle"
+                    android:id="@+id/item_cost"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:layout_marginLeft="100dp"
+                    android:layout_marginRight="40dp"
                     android:ellipsize="end"
-                    android:maxLines="2"
-                    android:text="SUB SUB SUB"
-                    android:textAlignment="viewStart"
+                    android:maxLines="1"
+                    android:text="$17.00"
+                    android:textColor="@color/text_secondary"
                     android:textSize="16sp" />
 
             </LinearLayout>
+
+            <!-- FAB -->
+            <include layout="@layout/fab_item_detail" />
 
         </FrameLayout>
 
